@@ -90,7 +90,6 @@ if [ -f "configure" ]; then
         --without-snapshot \
         --without-ssl \
         --partly-static \
-        --with-intl=none \
         --shared \
         --cross-compiling
   else 
@@ -100,7 +99,6 @@ if [ -f "configure" ]; then
         --without-snapshot \
         --openssl-no-asm \
         --partly-static \
-        --with-intl=none \
         --shared \
         --cross-compiling
   fi
